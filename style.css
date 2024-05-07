@@ -1,0 +1,15 @@
+
+h1 {
+    color: green;
+    background-color: lightgray;
+}
+
+#anchor_style{
+    color: green;
+    background-color: lightgray;
+}
+
+tr, th, td {
+    color: blue;
+    background-color: lightgray;
+}

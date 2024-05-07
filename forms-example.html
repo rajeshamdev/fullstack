@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+            <title> Form Examples </title>
+    </head>
+
+    <body>
+        <h1> Form Examples </h1>
+        <h2> input type text, password and submit: </h2>
+        <form action = "/registration" method = "POST">   
+            <label for = "username" > Username: </label>
+            <input type= "text" name = "username"> <br>
+
+            <label for = "passsword" > Password: </label>
+            <input type = "password" > <br>
+
+            <input type = "submit" />
+        </form>
+
+        <h2> input type checkbox: </h2>
+        <form>
+            <!-- checkbox examples-->
+            <input type="checkbox" name="dog" value="Dog">
+            <label for="dog" > I own a dog </lable> <br>
+            <input type="checkbox" name="cat" value="Cat" >
+            <label for="cat" > I own a cat </lable>
+        </form>
+
+        <h2> input type radio button : </h2>
+        <form>
+            <!-- radio button examples-->
+            <input type="radio" name="right" value="Right">
+            <label for="right" > I am Right Handed </lable> <br>
+            <input type="radio" name="left" value="Left">
+            <label for="left" > I am Left Handed </lable>
+        </form>
+
+        <h2> input type number, email, file: </h2>
+        <form>
+            <!-- Numner, e-mail and file input examples-->
+            <lable for="number"> Age:</lable>
+            <input type="number" name="age" /> <br>
+            <lable for="email"> E-Mail:</lable>
+            <input type="email" name="email" /> <br>
+            <lable for="file">Image:</lable>
+            <input type="file" name="file" />
+        </form>
+
+        <h2> textarea multiline: </h2>
+        <form>
+            <!-- Multiline example-->
+            <label for="multiline" > About you: </lable>
+            <textarea name="multiline" rows="5"></textarea>
+        </form>
+
+        <h2> select dropdown: </h2>
+        <form>
+            <!-- Drop down-->
+            <select name="foog">
+                <option value="chocolate"> Chocolate </option>
+                <option value="ice_cream"> Ice Cream </option>
+                <option value="yogurt"> Yogurt </option>
+            </select>
+        </form>
+
+    </body>
+
+
+</html>
