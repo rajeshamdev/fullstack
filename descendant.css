@@ -1,0 +1,20 @@
+
+/* element selectors */
+h1 {
+    color: red
+}
+
+/* ID selectors */
+
+#blog {
+    color: blue;
+}
+
+/* multiple descendants selectors */
+#blog div p {
+    color: purple;
+}
+
+#blog > p {
+    color: green;
+}
